@@ -200,7 +200,7 @@ export default function Home() {
                           className="font-display font-black text-4xl sm:text-6xl md:text-7xl text-white tracking-tight leading-none uppercase"
                         >
                           {vehicle.brand}{" "}
-                          <span className={idx === 0 ? "text-red-500" : idx === 1 ? "text-blue-500" : "text-orange-500"}>
+                          <span className="text-white">
                             {vehicle.name.replace(vehicle.brand, "").trim()}
                           </span>
                         </motion.h1>
